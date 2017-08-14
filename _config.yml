@@ -13,7 +13,7 @@ avatar: https://avatars1.githubusercontent.com/u/10453338?v=4&s=460
 
 # Tag and Category-pages
 tag-page: '/tag/'
-cat-page: 'categories/'
+cat-page: '/categories/'
 
 #
 # Flags below are optional
@@ -28,8 +28,8 @@ footer-links:
   github: davidsyntex
   instagram: syradar
   linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
+  pinterest: syradar
+  rss: feedme # just type anything here for a working RSS icon
   twitter: syradar
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
