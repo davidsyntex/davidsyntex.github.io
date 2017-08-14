@@ -13,16 +13,16 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
   <div class="cat">
-      {% if post.category %} | 
+      {% if page.category %} | 
         <h3>
-          Category: <a href="{{ site.baseurl }}{{ site.cat-page }}#{{ post.category | slugify }}" class="post-cat">{{ tag }}</a>
+          Category: <a href="{{ site.baseurl }}{{ site.cat-page }}#{{ page.category | slugify }}" class="page-cat">{{ tag }}</a>
         </h3>
       {% endif %}
     </div>
   <div class="tags">
   {% if page.tags %} Tags: 
     {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}{{ site.tag-page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+      <a href="{{ site.baseurl }}{{ site.tag-page }}#{{ tag | slugify }}" class="page-tag">{{ tag }}</a>
     {% endfor %}
   {% endif %}
 </div>  
