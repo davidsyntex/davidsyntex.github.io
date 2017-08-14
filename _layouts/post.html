@@ -15,7 +15,7 @@ layout: default
   <div class="cat">
       {% if page.category %}
         <h3>
-          Category: <a href="{{ site.baseurl }}/{{ site.cat-page }}#{{ page.category | slugify }}" class="page-cat">{{ page.category }}</a>
+          Category: <a href="{{ site.baseurl }}{{ site.cat-page }}#{{ page.category | slugify }}" class="page-cat">{{ page.category }}</a>
         </h3>
       {% endif %}
     </div>
