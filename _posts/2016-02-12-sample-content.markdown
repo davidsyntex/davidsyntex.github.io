@@ -1,8 +1,9 @@
 ---
 layout: default
-title:  "Welcome to Jekyll!"
+title:  "Hejsan svejsan!"
 date:   2016-02-12 17:50:00
 categories: main
+tags: [web, test]
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
