@@ -2,7 +2,7 @@
 layout: post
 title:  "Hejsan världen"
 date:   2016-02-12 17:50:00
-categories: main
+category: main
 tags: [web, test]
 ---
 
