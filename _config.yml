@@ -11,6 +11,10 @@ description: Webbutvecklare, grafisk designer & rollspelsnörd
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/10453338?v=4&s=460
 
+# Tag and Category-pages
+tag-page: '/tag/'
+cat-page: 'categories/'
+
 #
 # Flags below are optional
 #
