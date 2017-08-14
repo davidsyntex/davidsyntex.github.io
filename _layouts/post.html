@@ -13,9 +13,9 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
   <div class="cat">
-      {% if page.category %} | 
+      {% if page.category %}
         <h3>
-          Category: <a href="{{ site.baseurl }}{{ site.cat-page }}#{{ page.category | slugify }}" class="page-cat">{{ tag }}</a>
+          Category: <a href="{{ site.baseurl }}/{{ site.cat-page }}#{{ page.category | slugify }}" class="page-cat">{{ page.category }}</a>
         </h3>
       {% endif %}
     </div>
